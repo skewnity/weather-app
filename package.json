@@ -1,0 +1,15 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Appka pro počasí.",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/main.css -w"
+  },
+  "author": "skewnity",
+  "license": "ISC"
+}
