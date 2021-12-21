@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+
+    font-family: 'Courier New', Courier, monospace;
+
+    background-image: url(../images/bridge.jpg);
+    
+    background-size: cover;
+    background-position: center;
+
+
+}
+.box{
+    width: 60vw;
+    height: 80vh;
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    @include responsive(tablet-landscape){
+        width: 80vw;
+    }
+    @include responsive(tablet-portrait){
+        width: 100vw;
+    }
+}
